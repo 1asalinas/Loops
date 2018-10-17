@@ -5,7 +5,7 @@ function check(){
     let largeLimit = 600000;//six hundred thousand
 
     let test1 = 21736 === positiveIntSum(smallLimit);
-    let test2 = 180000300000 === positiveIntSum(mediumLimit);
+    let test2 = 524800 === positiveIntSum(mediumLimit);
     let test3 = 1770 === additionPatternSum(60,3,20);
     let test4 = 8375 === additionPatternSum(-200, 15, 50);
     let test5 = 12345678 === multiplicationPatternSum(1,3,largeLimit);
